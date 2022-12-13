@@ -1,6 +1,8 @@
 import { FC, Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import Form from '../Form'
+import Image from "next/image";
+
 export interface ModalPropTypes {
     handleClose: () => void
     show: boolean
@@ -46,7 +48,7 @@ export const ModalForm: FC<ModalPropTypes> = ({
                     onClick={() => handleClose()}
                   >
                     <span className="sr-only">Close</span>
-                        <p className="text-green-500"><img  src="icon/close.svg" alt="" width={32} height={32}/></p>
+                        <p className="text-green-500"><Image  src="/icon/close.svg" alt="" width={32} height={32}/></p>
                   </button>
                 </div>
                 <div className="sm:flex sm:items-start">

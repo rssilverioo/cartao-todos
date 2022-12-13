@@ -33,8 +33,8 @@ export default function TicketPage({ user }: TicketPageProps) {
       <div className="max-w-[520px] text-center lg:text-left">
     
 
-        <strong className="text-neutral-200 text-xl mt-12 inline-flex lg:flex gap-4">
-          <img src="/icon/check.svg" />
+        <strong className="text-neutral-200 text-xl items-center mt-12 inline-flex lg:flex gap-4">
+          <Image src="/icon/check.svg" width={30} height={30} alt="" />
           <span>Cartão criado <span className="text-green-500">com sucesso</span></span>
         </strong>
 
@@ -44,22 +44,21 @@ export default function TicketPage({ user }: TicketPageProps) {
         <a 
             href="#"
             className="h-[60px] bg-white rounded hover:bg-gray-300 duration-100 flex items-center justify-center">
-            <img src="/icon/download-button.svg" alt="Baixe seu cartão" />
+            <Image src="/icon/download-button.svg" width={30} height={30} alt="Baixe seu cartão" />
           </a>
-          
           <a 
             href="#"
             className="h-[60px] bg-white rounded hover:bg-gray-300 duration-100 flex items-center justify-center">
-            <img src="/icon/whatsapp.svg" alt="Compartilhar no WhatsApp" />
+            <Image src="/icon/whatsapp.svg"  width={30} height={30}  alt="Compartilhar no WhatsApp" />
           </a>
 
           <a  href="#" className="h-[60px] bg-white rounded hover:bg-gray-300 duration-100 flex items-center justify-center">
-            <img src="/icon/linkedin.svg" alt="Compartilhar no LinkedIn" />
+            <Image src="/icon/linkedin.svg"  width={30} height={30}  alt="Compartilhar no LinkedIn" />
           </a>
 
 
           <a  href="#" className="h-[60px] bg-white rounded hover:bg-gray-300 duration-100 flex items-center justify-center">
-            <img src="/icon/facebook.svg" alt="Compartilhar no Facebook" />
+            <Image src="/icon/facebook.svg"  width={30} height={30}  alt="Compartilhar no Facebook" />
           </a>
         </footer>
 
