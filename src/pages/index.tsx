@@ -1,7 +1,6 @@
 import { Fragment, useState } from 'react'
 import Image from "next/image";
 
-import { Dialog, Transition } from '@headlessui/react'
 import {ModalForm} from '../components/Modal'
 export default function Home() {
   const [isModalOpen, setModalOpen] = useState(false)
